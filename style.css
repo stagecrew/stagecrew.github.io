@@ -1,0 +1,85 @@
+@font-face{
+    font-family: league-condensed-italic;
+    src: url(./leaguegothic-condensed-italic-webfont.woff);
+}
+@font-face{
+    font-family: league-condensed-regular;
+    src: url(./leaguegothic-condensed-regular-webfont.woff);
+}
+@font-face{
+    font-family: league-italic;
+    src: url(./leaguegothic-italic-webfont.woff);
+}
+@font-face{
+    font-family: league-regular;
+    src: url(./leaguegothic-regular-webfont.woff);
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #EEE;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top{
+    font-family: league-regular;
+    font-size: 500%;
+    text-align: center;
+    text-shadow: 0px 0px 300px #FFF,
+    0px 0px 20px #DFF;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background-color: #000;
+    box-shadow: 0px 0px 10px 1px #000;
+    position: relative;
+}
+
+#top h1{
+    margin: 0px;
+}
+
+main{
+width: 100%;
+color: white;
+background-color: #EEE;
+font-size: 1.4em;
+}
+
+article{
+    color: #000;
+    max-width: 60%;
+    line-height: 1.5em;
+    margin: 30px;
+    margin-left: 4%;
+    padding: 40px;
+    background-color: #FEFEFE;
+    box-shadow: 0px 0px 10px 1px #000;
+}
+
+h2, h3, h4, h5, h6{
+   margin: 0px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin: 5px 0px;
+    box-shadow: 0px 0px 1px 0px #000;
+}
+
+i{
+    font-family: league-italic;
+}
+
+footer{
+    background-color: black;
+    padding:20px;
+    color: white;
+    margin-top: 0px;
+    box-shadow: 0px 0px 10px 1px #000;
+}
